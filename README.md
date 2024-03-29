@@ -5,3 +5,5 @@ You can find the assignment prompt PDF called "Laboratorio_Individuale_2023", es
 The hardest task is the one about finding the Bacon Number.
 
 In "Relazione Laboratorio Individuale" you can find the description of the project and the complexity analysis, everything in Italian.
+
+This project obtained maxium score ( 4/4 ).
