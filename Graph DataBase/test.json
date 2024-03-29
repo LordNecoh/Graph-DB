@@ -1,0 +1,309 @@
+[
+
+{
+	"test_description": "CREATE a graph from text and PRINT it (this test does not check adjacency of nodes, but only their presence)",
+	"input": "a nodi.txt archi.txt d",
+	"in_stdout": 
+	[
+	"Keanu Reeves","Carrie-Anne Moss","Laurence Fishburne","Hugo Weaving","Lilly Wachowski","Lana Wachowski","Joel Silver","Emil Eifrem","Charlize Theron",
+	"Al Pacino","Taylor Hackford","Tom Cruise","Jack Nicholson","Demi Moore","Kevin Bacon","Kiefer Sutherland","Noah Wyle","Cuba Gooding Jr.","Kevin Pollak",
+	"J.T. Walsh","James Marshall","Christopher Guest","Rob Reiner","Aaron Sorkin","Kelly McGillis","Val Kilmer","Anthony Edwards","Tom Skerritt","Meg Ryan",
+	"Tony Scott","Jim Cash","Renee Zellweger","Kelly Preston","Jerry O'Connell","Jay Mohr","Bonnie Hunt","Regina King","Jonathan Lipnicki","Cameron Crowe",
+	"River Phoenix","Corey Feldman","Wil Wheaton","John Cusack","Marshall Bell","Helen Hunt","Greg Kinnear","James L. Brooks","Annabella Sciorra","Max von Sydow",
+	"Werner Herzog","Robin Williams","Vincent Ward","Ethan Hawke","Rick Yune","James Cromwell","Scott Hicks","Parker Posey","Dave Chappelle","Steve Zahn",
+	"Tom Hanks","Nora Ephron","Rita Wilson","Bill Pullman","Victor Garber","Rosie O'Donnell","John Patrick Stanley","Nathan Lane","Billy Crystal","Carrie Fisher",
+	"Bruno Kirby","Liv Tyler","Brooke Langton","Gene Hackman","Orlando Jones","Howard Deutch","Christian Bale","Zach Grenier","Mike Nichols","Richard Harris",
+	"Clint Eastwood","Takeshi Kitano","Dina Meyer","Ice-T","Robert Longo","Halle Berry","Jim Broadbent","Tom Tykwer","David Mitchell","Stefan Arndt","Ian McKellen",
+	"Audrey Tautou","Paul Bettany","Ron Howard","Natalie Portman","Stephen Rea","John Hurt","Ben Miles","Emile Hirsch","John Goodman","Susan Sarandon","Matthew Fox",
+	"Christina Ricci","Rain","Naomie Harris","Michael Clarke Duncan","David Morse","Sam Rockwell","Gary Sinise","Patricia Clarkson","Frank Darabont","Frank Langella",
+	"Michael Sheen","Oliver Platt","Danny DeVito","John C. Reilly","Ed Harris","Bill Paxton","Philip Seymour Hoffman","Jan de Bont","Robert Zemeckis","Milos Forman",
+	"Diane Keaton","Nancy Meyers","Chris Columbus","Julia Roberts","Madonna","Geena Davis","Lori Petty","Penny Marshall","Paul Blythe","Angela Scope","Jessica Thompson",
+	"James Thompson","The Matrix","The Matrix Reloaded","The Matrix Revolutions","The Devil's Advocate","A Few Good Men","Top Gun","Jerry Maguire","Stand By Me",
+	"As Good as It Gets","What Dreams May Come","Snow Falling on Cedars","You've Got Mail","Sleepless in Seattle","Joe Versus the Volcano","When Harry Met Sally",
+	"That Thing You Do","The Replacements","RescueDawn","The Birdcage","Unforgiven","Johnny Mnemonic","Cloud Atlas","The Da Vinci Code","V for Vendetta","Speed Racer",
+	"Ninja Assassin","The Green Mile","Frost/Nixon","Hoffa","Apollo 13","Twister","Cast Away","One Flew Over the Cuckoo's Nest","Something's Gotta Give","Bicentennial Man",
+	"Charlie Wilson's War","The Polar Express","A League of Their Own"
+	]
+},
+
+{
+	"test_description": "ADD a new VERTEX of type PERSON to the loaded database",
+	"input": "a nodi.txt archi.txt b Willem Dafoe\n d",
+	"in_stdout":
+	[
+	"Keanu Reeves","Carrie-Anne Moss","Laurence Fishburne","Hugo Weaving","Lilly Wachowski","Lana Wachowski","Joel Silver","Emil Eifrem","Charlize Theron",
+	"Al Pacino","Taylor Hackford","Tom Cruise","Jack Nicholson","Demi Moore","Kevin Bacon","Kiefer Sutherland","Noah Wyle","Cuba Gooding Jr.","Kevin Pollak",
+	"J.T. Walsh","James Marshall","Christopher Guest","Rob Reiner","Aaron Sorkin","Kelly McGillis","Val Kilmer","Anthony Edwards","Tom Skerritt","Meg Ryan",
+	"Tony Scott","Jim Cash","Renee Zellweger","Kelly Preston","Jerry O'Connell","Jay Mohr","Bonnie Hunt","Regina King","Jonathan Lipnicki","Cameron Crowe",
+	"River Phoenix","Corey Feldman","Wil Wheaton","John Cusack","Marshall Bell","Helen Hunt","Greg Kinnear","James L. Brooks","Annabella Sciorra","Max von Sydow",
+	"Werner Herzog","Robin Williams","Vincent Ward","Ethan Hawke","Rick Yune","James Cromwell","Scott Hicks","Parker Posey","Dave Chappelle","Steve Zahn",
+	"Tom Hanks","Nora Ephron","Rita Wilson","Bill Pullman","Victor Garber","Rosie O'Donnell","John Patrick Stanley","Nathan Lane","Billy Crystal","Carrie Fisher",
+	"Bruno Kirby","Liv Tyler","Brooke Langton","Gene Hackman","Orlando Jones","Howard Deutch","Christian Bale","Zach Grenier","Mike Nichols","Richard Harris",
+	"Clint Eastwood","Takeshi Kitano","Dina Meyer","Ice-T","Robert Longo","Halle Berry","Jim Broadbent","Tom Tykwer","David Mitchell","Stefan Arndt","Ian McKellen",
+	"Audrey Tautou","Paul Bettany","Ron Howard","Natalie Portman","Stephen Rea","John Hurt","Ben Miles","Emile Hirsch","John Goodman","Susan Sarandon","Matthew Fox",
+	"Christina Ricci","Rain","Naomie Harris","Michael Clarke Duncan","David Morse","Sam Rockwell","Gary Sinise","Patricia Clarkson","Frank Darabont","Frank Langella",
+	"Michael Sheen","Oliver Platt","Danny DeVito","John C. Reilly","Ed Harris","Bill Paxton","Philip Seymour Hoffman","Jan de Bont","Robert Zemeckis","Milos Forman",
+	"Diane Keaton","Nancy Meyers","Chris Columbus","Julia Roberts","Madonna","Geena Davis","Lori Petty","Penny Marshall","Paul Blythe","Angela Scope","Jessica Thompson",
+	"James Thompson", 
+	"Willem Dafoe", 
+	"The Matrix","The Matrix Reloaded","The Matrix Revolutions","The Devil's Advocate","A Few Good Men","Top Gun","Jerry Maguire","Stand By Me",
+	"As Good as It Gets","What Dreams May Come","Snow Falling on Cedars","You've Got Mail","Sleepless in Seattle","Joe Versus the Volcano","When Harry Met Sally",
+	"That Thing You Do","The Replacements","RescueDawn","The Birdcage","Unforgiven","Johnny Mnemonic","Cloud Atlas","The Da Vinci Code","V for Vendetta","Speed Racer",
+	"Ninja Assassin","The Green Mile","Frost/Nixon","Hoffa","Apollo 13","Twister","Cast Away","One Flew Over the Cuckoo's Nest","Something's Gotta Give","Bicentennial Man",
+	"Charlie Wilson's War","The Polar Express","A League of Their Own"
+	]
+},
+
+{
+	"test_description": "ADD a new VERTEX of type MOVIE to the loaded database",
+	"input": "a nodi.txt archi.txt c Iron Man\n d",
+	"in_stdout":
+	[
+	"Keanu Reeves","Carrie-Anne Moss","Laurence Fishburne","Hugo Weaving","Lilly Wachowski","Lana Wachowski","Joel Silver","Emil Eifrem","Charlize Theron",
+	"Al Pacino","Taylor Hackford","Tom Cruise","Jack Nicholson","Demi Moore","Kevin Bacon","Kiefer Sutherland","Noah Wyle","Cuba Gooding Jr.","Kevin Pollak",
+	"J.T. Walsh","James Marshall","Christopher Guest","Rob Reiner","Aaron Sorkin","Kelly McGillis","Val Kilmer","Anthony Edwards","Tom Skerritt","Meg Ryan",
+	"Tony Scott","Jim Cash","Renee Zellweger","Kelly Preston","Jerry O'Connell","Jay Mohr","Bonnie Hunt","Regina King","Jonathan Lipnicki","Cameron Crowe",
+	"River Phoenix","Corey Feldman","Wil Wheaton","John Cusack","Marshall Bell","Helen Hunt","Greg Kinnear","James L. Brooks","Annabella Sciorra","Max von Sydow",
+	"Werner Herzog","Robin Williams","Vincent Ward","Ethan Hawke","Rick Yune","James Cromwell","Scott Hicks","Parker Posey","Dave Chappelle","Steve Zahn",
+	"Tom Hanks","Nora Ephron","Rita Wilson","Bill Pullman","Victor Garber","Rosie O'Donnell","John Patrick Stanley","Nathan Lane","Billy Crystal","Carrie Fisher",
+	"Bruno Kirby","Liv Tyler","Brooke Langton","Gene Hackman","Orlando Jones","Howard Deutch","Christian Bale","Zach Grenier","Mike Nichols","Richard Harris",
+	"Clint Eastwood","Takeshi Kitano","Dina Meyer","Ice-T","Robert Longo","Halle Berry","Jim Broadbent","Tom Tykwer","David Mitchell","Stefan Arndt","Ian McKellen",
+	"Audrey Tautou","Paul Bettany","Ron Howard","Natalie Portman","Stephen Rea","John Hurt","Ben Miles","Emile Hirsch","John Goodman","Susan Sarandon","Matthew Fox",
+	"Christina Ricci","Rain","Naomie Harris","Michael Clarke Duncan","David Morse","Sam Rockwell","Gary Sinise","Patricia Clarkson","Frank Darabont","Frank Langella",
+	"Michael Sheen","Oliver Platt","Danny DeVito","John C. Reilly","Ed Harris","Bill Paxton","Philip Seymour Hoffman","Jan de Bont","Robert Zemeckis","Milos Forman",
+	"Diane Keaton","Nancy Meyers","Chris Columbus","Julia Roberts","Madonna","Geena Davis","Lori Petty","Penny Marshall","Paul Blythe","Angela Scope","Jessica Thompson",
+	"James Thompson","The Matrix","The Matrix Reloaded","The Matrix Revolutions","The Devil's Advocate","A Few Good Men","Top Gun","Jerry Maguire","Stand By Me",
+	"As Good as It Gets","What Dreams May Come","Snow Falling on Cedars","You've Got Mail","Sleepless in Seattle","Joe Versus the Volcano","When Harry Met Sally",
+	"That Thing You Do","The Replacements","RescueDawn","The Birdcage","Unforgiven","Johnny Mnemonic","Cloud Atlas","The Da Vinci Code","V for Vendetta","Speed Racer",
+	"Ninja Assassin","The Green Mile","Frost/Nixon","Hoffa","Apollo 13","Twister","Cast Away","One Flew Over the Cuckoo's Nest","Something's Gotta Give","Bicentennial Man",
+	"Charlie Wilson's War","The Polar Express","A League of Their Own",
+	"Iron Man"
+	]
+},
+
+{
+	"test_description": "ADD already existing VERTEX (one of type MOVIE, one of type PERSON) to the loaded database (should FAIL - already existing vertex)",
+	"input": "a nodi.txt archi.txt b Laurence Fishburne\nc A League of Their Own\n",
+	"in_stdout":
+	[ "operazione fallita",
+	  "operazione fallita"]
+},
+
+{
+	"test_description": "Check NUMBER of NODES - PERSON type",
+	"input": "a nodi.txt archi.txt e",
+	"in_stdout_ordered":
+	["133"]
+},
+
+{
+	"test_description": "Check NUMBER of NODES - MOVIE type",
+	"input": "a nodi.txt archi.txt f",
+	"in_stdout_ordered":
+	["38"]
+},
+
+{
+	"test_description": "Check NUMBER of EDGES (ACTED type) in the database",
+	"input": "a nodi.txt archi.txt g",
+	"in_stdout_ordered":
+	[ "100"]
+},
+
+{
+	"test_description": "Check NUMBER of EDGES (DIRECTED type) in the database",
+	"input": "a nodi.txt archi.txt h",
+	"in_stdout_ordered":
+	[ "43"]
+},
+
+{
+	"test_description": "Check NUMBER of EDGES (PRODUCED type) in the database",
+	"input": "a nodi.txt archi.txt i",
+	"in_stdout_ordered":
+	[ "7"]
+},
+
+{
+	"test_description": "ADD a new EDGE (ACTED type) to the loaded database - (This test only check NUMBER of EDGES!)",
+	"input": "a nodi.txt archi.txt g n Tom Cruise:Sleepless in Seattle:recitato_in\ng",
+	"in_stdout_ordered":
+	[ "100", "101"]
+},
+
+{
+	"test_description": "ADD a new EDGE (DIRECTED type) to the loaded database - (This test only check NUMBER of EDGES!)",
+	"input": "a nodi.txt archi.txt h n Tom Cruise:Sleepless in Seattle:diretto\nh",
+	"in_stdout_ordered":
+	[ "43", "44"]
+},
+
+{
+	"test_description": "ADD a new EDGE (PRODUCED type) to the loaded database - (This test only check NUMBER of EDGES!)",
+	"input": "a nodi.txt archi.txt i n Tom Cruise:The Matrix:prodotto\ni",
+	"in_stdout_ordered":
+	[ "7", "8"]
+},
+
+{
+	"test_description": "ADD a new EDGE to the loaded graph (should FAIL - nodes given with the wrong type -)",
+	"input": "a nodi.txt archi.txt n The Matrix:Tom Cruise:diretto",
+	"in_stderr_ordered":
+	[ "errore eseguendo il comando: inserimento dell'arco ",
+	  " fallito"]
+},
+
+{
+	"test_description": "ADD a new EDGE to the loaded graph (should FAIL - already existing edge -)",
+	"input": "a nodi.txt archi.txt n Danny DeVito:Hoffa:diretto",
+	"in_stderr_ordered":
+	[ "errore eseguendo il comando: inserimento dell'arco ",
+	  " fallito"]
+},
+
+{
+	"test_description": "ADD a new EDGE to the loaded graph (should FAIL - non existing PERSON -)",
+	"input": "a nodi.txt archi.txt n Ryan Gosling:The Matrix:recitato_in",
+	"in_stderr_ordered":
+	[ "errore eseguendo il comando: inserimento dell'arco ",
+	  " fallito"]
+},
+
+{
+	"test_description": "ADD a new EDGE to the loaded graph (should FAIL - non existing MOVIE -)",
+	"input": "a nodi.txt archi.txt n Danny DeVito:Barbie:recitato_in",
+	"in_stderr_ordered":
+	[ "errore eseguendo il comando: inserimento dell'arco ",
+	  " fallito"]
+},
+
+{
+	"test_description": "Retrieve COACTORS of actors in the database - 1 of 3",
+	"input": "a nodi.txt archi.txt j Tom Cruise",
+	"in_stdout":
+	[ 
+	"James Marshall", "Kevin Pollak", "J.T. Walsh", "Aaron Sorkin", "Christopher Guest", "Noah Wyle", "Kiefer Sutherland", "Kevin Bacon", "Demi Moore", "Jack Nicholson", "Val Kilmer",
+	"Meg Ryan", "Tom Skerritt", "Kelly McGillis", "Anthony Edwards", "Jerry O'Connell", "Bonnie Hunt", "Jay Mohr", "Cuba Gooding Jr.", "Jonathan Lipnicki", "Renee Zellweger",
+	"Kelly Preston", "Regina King"]
+},
+
+{
+	"test_description": "Retrieve COACTORS of actors in the database - 2 of 3",
+	"input": "a nodi.txt archi.txt j Tom Hanks",
+	"in_stdout":
+	[ 
+	"Parker Posey", "Greg Kinnear", "Steve Zahn", "Dave Chappelle", "Victor Garber", "Bill Pullman", "Rita Wilson", "Rosie O'Donnell",
+	"Nathan Lane", "Meg Ryan", "Liv Tyler", "Charlize Theron"]
+},
+
+{
+	"test_description": "Retrieve COACTORS of actors in the database - 3 of 3",
+	"input": "a nodi.txt archi.txt j Charlize Theron",
+	"in_stdout":
+	[ 
+	"Al Pacino", "Keanu Reeves", "Tom Hanks", "Liv Tyler"
+	]
+},
+
+{
+	"test_description": "Retrieve actors of movie PRODUCEDBY a certain person - 1 of 3",
+	"input": "a nodi.txt archi.txt k Joel Silver",
+	"in_stdout":
+	[ 
+	 "Emil Eifrem", "Hugo Weaving", "Laurence Fishburne", "Carrie-Anne Moss", "Keanu Reeves"
+	]
+},
+
+{
+	"test_description": "Retrieve actors of movie PRODUCEDBY a certain person - 2 of 3",
+	"input": "a nodi.txt archi.txt k Cameron Crowe",
+	"in_stdout":
+	[ 
+	 "Jerry O'Connell", "Bonnie Hunt", "Jay Mohr", "Cuba Gooding Jr.", "Jonathan Lipnicki", "Renee Zellweger", "Kelly Preston", "Regina King", "Tom Cruise"
+	]
+},
+
+{
+	"test_description": "Retrieve actors of movie PRODUCEDBY a certain person - 3 of 3",
+	"input": "a nodi.txt archi.txt k Nora Ephron",
+	"in_stdout":
+	[ 
+	 "Carrie Fisher", "Billy Crystal", "Bruno Kirby", "Meg Ryan"
+	]
+},
+
+{
+	"test_description": "Retrieve actors of movie DIRECTEDBY a certain person - 1 of 3",
+	"input": "a nodi.txt archi.txt l Lilly Wachowski",
+	"in_stdout":
+	[ 
+	 "Emil Eifrem", "Hugo Weaving", "Laurence Fishburn", "Carrie-Anne Moss", "Keanu Reeves"
+	]
+},
+
+{
+	"test_description": "Retrieve actors of movie DIRECTEDBY a certain person - 2 of 3",
+	"input": "a nodi.txt archi.txt l James L. Brooks",
+	"in_stdout":
+	[ 
+	 "Helen Hunt", "Jack Nicholson", "Cuba Gooding Jr.", "Greg Kinnear"
+	]
+},
+
+{
+	"test_description": "Retrieve actors of movie DIRECTEDBY a certain person - 3 of 3",
+	"input": "a nodi.txt archi.txt l Tom Hanks",
+	"in_stdout":
+	[ 
+	 "Liv Tyler", "Charlize Theron"
+	]
+},
+
+{
+	"test_description": "Retrieve BACON NUMBER of Kevin Bacon (should be 0 - base case)",
+	"input": "a nodi.txt archi.txt m Kevin Bacon",
+	"in_stdout":
+	[ 
+	 "0"
+	]
+},
+
+{
+	"test_description": "Retrieve BACON NUMBER of actor 1 of 3",
+	"input": "a nodi.txt archi.txt m Kevin Bacon\nm Tom Cruise ",
+	"in_stdout":
+	[ 
+	 "0", "1"
+	]
+},
+
+{
+	"test_description": "Retrieve BACON NUMBER of actor 2 of 3",
+	"input": "a nodi.txt archi.txt m Kevin Bacon\nm Tom Cruise\nm Val Kilmer\n",
+	"in_stdout":
+	[ 
+	 "0", "1", "2"
+	]
+},
+
+{
+	"test_description": "Retrieve BACON NUMBER of actor 3 of 3",
+	"input": "a nodi.txt archi.txt m Kevin Bacon\nm Tom Cruise\nm Val Kilmer\nm Ethan Hawke",
+	"in_stdout":
+	[ 
+	 "0", "1", "2", "3"
+	]
+}, 
+
+{
+	"test_description": "Retrieve BACON NUMBER where there is no Bacon number",
+	"input": "a nodi.txt archi.txt m Takeshi Kitano\nm Ice-T",
+	"in_stdout":
+	[ 
+	 "no bacon number", "no bacon number"
+	]
+}
+
+
+
+]

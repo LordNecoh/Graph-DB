@@ -1,0 +1,150 @@
+Emil Eifrem:The Matrix:recitato_in
+Hugo Weaving:The Matrix:recitato_in
+Laurence Fishburne:The Matrix:recitato_in
+Carrie-Anne Moss:The Matrix:recitato_in
+Keanu Reeves:The Matrix:recitato_in
+Hugo Weaving:The Matrix Reloaded:recitato_in
+Laurence Fishburne:The Matrix Reloaded:recitato_in
+Carrie-Anne Moss:The Matrix Reloaded:recitato_in
+Keanu Reeves:The Matrix Reloaded:recitato_in
+Hugo Weaving:The Matrix Revolutions:recitato_in
+Laurence Fishburne:The Matrix Revolutions:recitato_in
+Carrie-Anne Moss:The Matrix Revolutions:recitato_in
+Keanu Reeves:The Matrix Revolutions:recitato_in
+Al Pacino:The Devil's Advocate:recitato_in
+Charlize Theron:The Devil's Advocate:recitato_in
+Keanu Reeves:The Devil's Advocate:recitato_in
+James Marshall:A Few Good Men:recitato_in
+Kevin Pollak:A Few Good Men:recitato_in
+J.T. Walsh:A Few Good Men:recitato_in
+Aaron Sorkin:A Few Good Men:recitato_in
+Cuba Gooding Jr.:A Few Good Men:recitato_in
+Christopher Guest:A Few Good Men:recitato_in
+Noah Wyle:A Few Good Men:recitato_in
+Kiefer Sutherland:A Few Good Men:recitato_in
+Kevin Bacon:A Few Good Men:recitato_in
+Demi Moore:A Few Good Men:recitato_in
+Jack Nicholson:A Few Good Men:recitato_in
+Tom Cruise:A Few Good Men:recitato_in
+Val Kilmer:Top Gun:recitato_in
+Meg Ryan:Top Gun:recitato_in
+Tom Skerritt:Top Gun:recitato_in
+Kelly McGillis:Top Gun:recitato_in
+Tom Cruise:Top Gun:recitato_in
+Anthony Edwards:Top Gun:recitato_in
+Jerry O'Connell:Jerry Maguire:recitato_in
+Bonnie Hunt:Jerry Maguire:recitato_in
+Jay Mohr:Jerry Maguire:recitato_in
+Cuba Gooding Jr.:Jerry Maguire:recitato_in
+Jonathan Lipnicki:Jerry Maguire:recitato_in
+Renee Zellweger:Jerry Maguire:recitato_in
+Kelly Preston:Jerry Maguire:recitato_in
+Regina King:Jerry Maguire:recitato_in
+Tom Cruise:Jerry Maguire:recitato_in
+Jerry O'Connell:Stand By Me:recitato_in
+River Phoenix:Stand By Me:recitato_in
+Marshall Bell:Stand By Me:recitato_in
+Wil Wheaton:Stand By Me:recitato_in
+Kiefer Sutherland:Stand By Me:recitato_in
+John Cusack:Stand By Me:recitato_in
+Corey Feldman:Stand By Me:recitato_in
+Helen Hunt:As Good as It Gets:recitato_in
+Jack Nicholson:As Good as It Gets:recitato_in
+Cuba Gooding Jr.:As Good as It Gets:recitato_in
+Greg Kinnear:As Good as It Gets:recitato_in
+Robin Williams:What Dreams May Come:recitato_in
+Cuba Gooding Jr.:What Dreams May Come:recitato_in
+Max von Sydow:What Dreams May Come:recitato_in
+Werner Herzog:What Dreams May Come:recitato_in
+Annabella Sciorra:What Dreams May Come:recitato_in
+Ethan Hawke:Snow Falling on Cedars:recitato_in
+Rick Yune:Snow Falling on Cedars:recitato_in
+Max von Sydow:Snow Falling on Cedars:recitato_in
+James Cromwell:Snow Falling on Cedars:recitato_in
+Tom Hanks:You've Got Mail:recitato_in
+Parker Posey:You've Got Mail:recitato_in
+Greg Kinnear:You've Got Mail:recitato_in
+Meg Ryan:You've Got Mail:recitato_in
+Steve Zahn:You've Got Mail:recitato_in
+Dave Chappelle:You've Got Mail:recitato_in
+Meg Ryan:Sleepless in Seattle:recitato_in
+Victor Garber:Sleepless in Seattle:recitato_in
+Tom Hanks:Sleepless in Seattle:recitato_in
+Bill Pullman:Sleepless in Seattle:recitato_in
+Rita Wilson:Sleepless in Seattle:recitato_in
+Rosie O'Donnell:Sleepless in Seattle:recitato_in
+Tom Hanks:Joe Versus the Volcano:recitato_in
+Nathan Lane:Joe Versus the Volcano:recitato_in
+Meg Ryan:Joe Versus the Volcano:recitato_in
+Carrie Fisher:When Harry Met Sally:recitato_in
+Billy Crystal:When Harry Met Sally:recitato_in
+Bruno Kirby:When Harry Met Sally:recitato_in
+Meg Ryan:When Harry Met Sally:recitato_in
+Tom Hanks:That Thing You Do:recitato_in
+Liv Tyler:That Thing You Do:recitato_in
+Charlize Theron:That Thing You Do:recitato_in
+Brooke Langton:The Replacements:recitato_in
+Keanu Reeves:The Replacements:recitato_in
+Orlando Jones:The Replacements:recitato_in
+Gene Hackman:The Replacements:recitato_in
+Zach Grenier:RescueDawn:recitato_in
+Steve Zahn:RescueDawn:recitato_in
+Christian Bale:RescueDawn:recitato_in
+Marshall Bell:RescueDawn:recitato_in
+Robin Williams:The Birdcage:recitato_in
+Nathan Lane:The Birdcage:recitato_in
+Gene Hackman:The Birdcage:recitato_in
+Clint Eastwood:Unforgiven:recitato_in
+Gene Hackman:Unforgiven:recitato_in
+Richard Harris:Unforgiven:recitato_in
+Ice-T:Johnny Mnemonic:recitato_in
+Lilly Wachowski:The Matrix:diretto
+Lana Wachowski:The Matrix Reloaded:diretto
+Lilly Wachowski:The Matrix Reloaded:diretto
+Lana Wachowski:The Matrix Revolutions:diretto
+Lilly Wachowski:The Matrix Revolutions:diretto
+Taylor Hackford:The Devil's Advocate:diretto
+Rob Reiner:A Few Good Men:diretto
+Tony Scott:Top Gun:diretto
+Cameron Crowe:Jerry Maguire:diretto
+Rob Reiner:Stand By Me:diretto
+James L. Brooks:As Good as It Gets:diretto
+Vincent Ward:What Dreams May Come:diretto
+Scott Hicks:Snow Falling on Cedars:diretto
+Nora Ephron:You've Got Mail:diretto
+Nora Ephron:Sleepless in Seattle:diretto
+John Patrick Stanley:Joe Versus the Volcano:diretto
+Rob Reiner:When Harry Met Sally:diretto
+Tom Hanks:That Thing You Do:diretto
+Howard Deutch:The Replacements:diretto
+Werner Herzog:RescueDawn:diretto
+Mike Nichols:The Birdcage:diretto
+Clint Eastwood:Unforgiven:diretto
+Robert Longo:Johnny Mnemonic:diretto
+Tom Tykwer:Cloud Atlas:diretto
+Lana Wachowski:Cloud Atlas:diretto
+Lilly Wachowski:Cloud Atlas:diretto
+Ron Howard:The Da Vinci Code:diretto
+James Marshall:V for Vendetta:diretto
+Lana Wachowski:Speed Racer:diretto
+Lilly Wachowski:Speed Racer:diretto
+James Marshall:Ninja Assassin:diretto
+Frank Darabont:The Green Mile:diretto
+Ron Howard:Frost/Nixon:diretto
+Danny DeVito:Hoffa:diretto
+Ron Howard:Apollo 13:diretto
+Jan de Bont:Twister:diretto
+Robert Zemeckis:Cast Away:diretto
+Milos Forman:One Flew Over the Cuckoo's Nest:diretto
+Nancy Meyers:Something's Gotta Give:diretto
+Chris Columbus:Bicentennial Man:diretto
+Mike Nichols:Charlie Wilson's War:diretto
+Robert Zemeckis:The Polar Express:diretto
+Penny Marshall:A League of Their Own:diretto
+Joel Silver:The Matrix:prodotto
+Joel Silver:The Matrix Reloaded:prodotto
+Joel Silver:The Matrix Revolutions:prodotto
+Cameron Crowe:Jerry Maguire:prodotto
+Nora Ephron:When Harry Met Sally:prodotto
+Rob Reiner:When Harry Met Sally:prodotto
+Stefan Arndt:Cloud Atlas:prodotto
